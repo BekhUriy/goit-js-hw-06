@@ -22,9 +22,7 @@ images.forEach(image => {
   imgElement.src = image.url;
   imgElement.alt = image.alt;
   imgElement.width = '300';
-
   liElement.appendChild(imgElement);
   fragment.appendChild(liElement);
 });
-
 galleryElement.appendChild(fragment);
